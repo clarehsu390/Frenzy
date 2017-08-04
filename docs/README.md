@@ -6,8 +6,8 @@
 
  Unlike traditional word search, users will be able to:
  1) Select letters that are adjacent on a multidirectional mouse gesture.
- 2) Find words that
- 3) Every time a word is selected, new letters will replace those selected.y
+ 2) Find words and check them against a dictionary.
+ 3) Every time a word is selected, new letters will replace those selected.
 
  More features will be outlined in detail in the **Functionality & MVP** and **Bonus Features** sections.
 
