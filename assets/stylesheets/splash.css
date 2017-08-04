@@ -99,4 +99,6 @@ h2 {
 a {
   font-size: 36px;
   color: white;
+  padding: 10px;
+  float: right;
 }
