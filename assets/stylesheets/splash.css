@@ -15,6 +15,7 @@
     position: fixed;
     right: 0;
     top: 0;
+    width: auto;
 }
 
 #instruction {
@@ -93,4 +94,9 @@ h2 {
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
     to {-webkit-transform: translate(0, -0px);}
+}
+
+a {
+  font-size: 36px;
+  color: white;
 }
