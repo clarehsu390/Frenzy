@@ -81,15 +81,14 @@
   font-size: 20px;
   font-family: 'Megrim';
   color: #F2D388;
-  left: 300px;
-  width: 50px;
   border-radius: 10px;
-  left: 400px;
+  text-align: right;
 }
 
 span.icono-reset {
-  color: black;
+  color: white;
   font-weight: bold;
+
 }
 
 .icono-reset:hover {
