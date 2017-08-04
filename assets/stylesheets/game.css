@@ -30,6 +30,7 @@
 
 #feedback {
   margin: auto;
+  text-align: center;
   z-index: 1;
   font-family: 'Megrim';
   font-size: 48px;

@@ -104,12 +104,11 @@ h1 {
 
 .start {
   position: absolute;
-  top:0;
   text-align: center;
-  bottom: 0;
+  bottom: 50px;
   background: linear-gradient(45deg,#A7D2CB,teal,#F2D388);
   background-size: 400% 400%;
-  box-shadow: 1vw 1vw 0 #F2D388;
+  box-shadow: 1vw 1vw 0 pink;
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 10px;

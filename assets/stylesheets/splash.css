@@ -4,7 +4,8 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: white;
+    background: black;
+    text-align: center;
 }
 
 .overlay {
@@ -14,6 +15,16 @@
     position: fixed;
     right: 0;
     top: 0;
+}
+
+#instruction {
+  font-family: 'Megrim';
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: 150px;
 }
 
 #game-over {
@@ -46,4 +57,16 @@
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
     to {-webkit-transform: translate(0, -0px);}
+}
+
+p {
+  font-family: 'Megrim';
+  color: white;
+
+}
+
+h2 {
+  font-family: 'Megrim';
+  color: white;
+
 }
