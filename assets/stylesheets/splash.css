@@ -20,11 +20,12 @@
 #instruction {
   font-family: 'Megrim';
   color: white;
+  font-size: 20px;
 }
 
 img {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
 }
 
 #game-over {
@@ -68,5 +69,28 @@ p {
 h2 {
   font-family: 'Megrim';
   color: white;
+  z-index: 1;
+  font-family: 'Megrim';
+  font-size: 36px;
+  font-weight: bolder;
+  color: white;
+  animation-duration: 3s;
+  list-style: none;
 
+  -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+
+
+}
+
+@-webkit-keyframes Floatingx {
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);}
 }
